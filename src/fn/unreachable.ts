@@ -1,4 +1,4 @@
-import { captureStackTrace } from './captureStackTrace';
+import { captureStackTrace } from './captureStackTrace.js';
 
 export function unreachable(msg = 'Unreachable code reached'): never {
   const error = new Error(msg);
